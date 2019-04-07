@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Titre de la page</title>
+    </head>
+    
+    <body>
+         Contenu des differents tags du body
+        <h1>Heading 1</h1>
+        <!-- Ceci est un commentaire-->
+        
+        <p> Paragraphe 1</p>
+        <p> Je ne sais pas trop quoi écrire mais il faut que je fasse quelque chose de long car le cours me le demande.<br> Donc me voici en fin de ligne et grace au tag br (line break) je peux aller à la ligne</p>
+        
+        
+        <!--creer un lien <a href="http://"-->
+        <!--ouvrir un lien dans un nouvel onglet, ajouter target="blank" dans après  le lien internet-->
+        <a href="http://www.google.com" target="blank">le Site google</a>
+        <!---lien vers une section de la page-->
+        <a href="#section2">lien de la section 1</a>
+                 
+        <section id="section2">
+            <h1>Section 2</h1>
+            <p>Ceeci est un paragraphe</p>
+            <!--Ajout d'image en chemin relatif-->
+            <img src="/images/vivicoc.JPG" alt="mon village">
+            <!--Ajout d'image en chemin absolu-->
+            <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/44635836_10156529820493046_633912665806209024_n.jpg?_nc_cat=105&_nc_ht=scontent-cdg2-1.xx&oh=f64664730cd166c77d5ea5bfbc313fc7&oe=5D348743">
+            <!--faire un lien à partir d'une image-->
+             <a href="http://www.google.com"><img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/44635836_10156529820493046_633912665806209024_n.jpg?_nc_cat=105&_nc_ht=scontent-cdg2-1.xx&oh=f64664730cd166c77d5ea5bfbc313fc7&oe=5D348743"></a>
+        </section>
+         <!--Listes-->
+        <h1>Mes étapes de la journée</h1>
+        <!--Liste ordonnée-->
+        <ol>
+            <li>Je me lève</li>
+            <li> je te bouscule</li>
+            <li>tu ne te reveille pas</li>
+            <li>comme d'habitude</li>
+        </ol>
+        <!--Liste non ordonnée-->
+        <ul>
+          <li>Je me lève</li>
+          <li> je te bouscule</li>
+          <li>tu ne te reveille pas</li>
+          <li>comme d'habitude</li>
+        </ul>
+        <!--On peut faire une liste dans une liste-->
+        <!--attributs-->
+        <!--Gestion de la police via html
+         <p style="font-size:30px">-->
+        <p style="font-size: 30px"> Voici mon paragraphe</p>
+        <p style="font-size: 30px;color: blue;background: yellow; text-align: center"> Voici <strong>mon</strong> paragraphe</p>
+        
+        <!--tag div : Division du contenu en plusieurs parties-->
+        
+    <div style="background-color:yellow">
+        <h1>Mon site web</h1>
+            
+    </div>
+
+    <div div style="background-color:blue;width:400px;height:600px">
+        <a href="http://www.google.fr">lien vers google</a>
+    
+    </div>
+
+        
+    <div div style="background-color:green">
+         <ul>
+          <li>Je me lève</li>
+          <li> je te bouscule</li>
+          <li>tu ne te reveille pas</li>
+          <li>comme d'habitude</li>
+        </ul>
+    
+    </div>
+        
+        <!--formulaires côté front-end-->
+        
+        <form>
+            <label for="nom">Nom:</label>
+            <input id= "nom" type="text" name="nom" placeholder="Veuillez entrer votre nom">
+            
+            <textarea cols="50" rows="20"></textarea>
+            
+            <input type="checkbox" value="Vélo">Vélo
+            <br>
+            <input type="checkbox" value="Voiture" checked>Voiture
+            <br>
+            <input type="checkbox" value="Moto">Moto
+            <br>
+            
+            <input type="radio" value="monsieur" name="sexe">Monsieur
+            <br>
+            <input type="radio" value="madame" name="sexe">Madame
+            <br><br><br><br><br>
+
+            <select name="Voiture">
+                <option value="Peugeot">Peugeot</option>
+                <option value="Citroen">Citroen</option>
+                <option value="Renault">Renault</option>
+                <option value="Nissan">Nissan</option>
+            </select>
+            
+            <input type="submit" value="Valider">
+            
+        </form>
+        
+        
+        <header>
+        
+        </header>
+        
+        <footer>
+        
+        </footer>
+    </body>
+    
+</html>
